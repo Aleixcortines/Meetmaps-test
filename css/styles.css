@@ -175,3 +175,87 @@ textarea {
 .text {
   margin: 5px;
 }
+
+/* Media queeries */
+
+/* Mobile: the screen that are 700px or less */
+
+@media screen and (max-width: 700px) {
+
+  .container-content {
+    width: 325px;
+  }
+
+  .arrow-image {
+    margin-left:0;
+    margin-right: -9px;
+  }
+
+  .form{
+    width: 302px;
+  }
+
+  .container{
+    width: 247px;
+  }
+
+  .text-message{
+    width: 210px;
+  }
+
+  .container-messages{
+    width: 259px;
+  }
+
+  .container-messages-error{
+    width: 264px;
+  }
+}
+
+/* Tablets: the screen that are between 700px and 1023px */
+
+@media screen and (min-width: 701px) and (max-width: 1023px) {
+
+  .container-content {
+    height: 900px;
+    width: 700px;
+  }
+
+  .form{
+    height: 664px;
+    width: 631px;
+    
+  }
+
+  textarea{
+    width: 517px;
+  }
+
+  .container{
+    margin-top: 680px;
+  }
+
+  .text-message{
+    font-size: 23px;
+  }
+
+  .container-messages{
+    font-size: 23px;
+    width: 557px;
+  }
+
+  .text-message:focus {
+    font-size: 23px;
+  }
+
+  .text-message::placeholder {
+    font-size: 23px;
+  }
+
+  .container-messages-error{
+    font-size: 23px;
+    height: 86px;
+    width: 470px;
+    
+  }
+}
