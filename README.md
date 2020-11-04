@@ -6,7 +6,7 @@ Starting:
 2. Open the project --> http://localhost:5500/
 
 URL:
-https://aleixcortines.github.io/Meetmaps-test/index.html
+https://aleixcortines.github.io/chat-query/index.html
 
 Author:
 Aleix Cortines
